@@ -1,10 +1,10 @@
 # arch-builder
 
-Contexto de Negócio
+## Contexto de Negócio
 
 Repositório central de governança arquitetural e design de sistemas, focado em padronização técnica, resiliência e escalabilidade. Este projeto serve como a fonte da verdade para decisões de engenharia e diretrizes de infraestrutura AWS, garantindo que novos serviços sigam os padrões de qualidade e as melhores práticas de nuvem da organização.
 
-Funcionalidades Técnicas
+## Funcionalidades Técnicas
 
 * Padronização de arquitetura através de registros formais (Architecture Decision Records).
 * Governança de infraestrutura AWS com foco em resiliência, custos e performance.
@@ -13,7 +13,7 @@ Funcionalidades Técnicas
 * Integração de diretrizes de observabilidade e monitoramento centralizado.
 * Versionamento e revisão por pares de decisões técnicas críticas.
 
-Arquitetura
+## Arquitetura
 
 O projeto fundamenta-se nos seguintes princípios arquiteturais e metodológicos:
 
@@ -22,7 +22,7 @@ O projeto fundamenta-se nos seguintes princípios arquiteturais e metodológicos
 * C4 Model: Adoção do modelo C4 para representação visual, facilitando a comunicação entre diferentes níveis de stakeholders.
 * Serverless & Event-Driven First: Priorização de arquiteturas modernas e escaláveis na nuvem AWS.
 
-Estrutura de Pastas
+## Estrutura de Pastas
 
 ```text
 /
@@ -33,31 +33,31 @@ Estrutura de Pastas
 └── GEMINI.md           # Configuração de contexto do Sparring Architect
 ```
 
-Detalhamento Técnico
+## Detalhamento Técnico
 
 * docs/adr/: Concentra os Architecture Decision Records. Cada arquivo detalha uma decisão específica de arquitetura, garantindo rastreabilidade histórica das escolhas técnicas.
 * standards/: Contém as diretrizes normativas. O arquivo `aws-standards.md` define padrões de alta disponibilidade e custos, enquanto o `tech-stack.md` cataloga linguagens suportadas (Node.js, Go, Python).
 * templates/: Modelos estruturados para garantir consistência. Inclui o `adr-template.md` para novos registros e o `c4-model-guide.md` para diagramas Mermaid.js.
 
-Operacional
+## Operacional
 
-Tecnologias e Pré-requisitos
+### Tecnologias e Pré-requisitos
 
 * Markdown: Escrita de documentos.
 * Mermaid.js: Renderização de diagramas.
 * Git: Controle de versão.
 * Editor: VS Code (recomendado extensões de Markdown e Mermaid).
 
-Configuração
+### Configuração
 
 Por ser um repositório de governança documental, não utiliza variáveis de ambiente (.env). As diretrizes de interação do assistente técnico estão no `GEMINI.md`.
 
-Comandos de Instalação e Execução
+### Comandos de Instalação e Execução
 
 * git clone: Clonar o repositório para acesso local.
 * git checkout -b adr/nome-da-decisao: Criar branch para novas proposições.
 
-Comandos de Teste
+### Comandos de Teste
 
 A validação dos documentos é realizada via revisão por pares (Pull Request), garantindo aderência aos templates em `templates/`.
 
