@@ -52,16 +52,7 @@ O projeto fundamenta-se nos seguintes princípios arquiteturais e metodológicos
 
 Por ser um repositório de governança documental, não utiliza variáveis de ambiente (.env). As diretrizes de interação do assistente técnico estão no `GEMINI.md`.
 
-### Comandos de Instalação e Execução
-
-* git clone: Clonar o repositório para acesso local.
-* git checkout -b adr/nome-da-decisao: Criar branch para novas proposições.
-
-### Comandos de Teste
-
-A validação dos documentos é realizada via revisão por pares (Pull Request), garantindo aderência aos templates em `templates/`.
-
-Conectividade
+## Conectividade
 
 * GitHub: [Repositório Oficial](https://github.com/luucashc/arch-builder)
 * Monitoramento: [New Relic Dashboard](https://one.newrelic.com)
