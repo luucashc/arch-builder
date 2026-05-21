@@ -2,7 +2,7 @@
 
 ## Contexto de Negócio
 
-Repositório central de governança arquitetural e design de sistemas, focado em padronização técnica, resiliência e escalabilidade. Este projeto serve como a fonte da verdade para decisões de engenharia e diretrizes de infraestrutura AWS, garantindo que novos serviços sigam os padrões de qualidade e as melhores práticas de nuvem da organização.
+Repositório central de governança arquitetural e design de sistemas, que atua como o motor de contexto para os nossos Agentes de IA de Engenharia. Este projeto serve como a fonte da verdade para decisões técnicas e diretrizes de infraestrutura AWS, garantindo que a IA valide e documente novos serviços seguindo os padrões de qualidade e as melhores práticas de nuvem da organização.
 
 ## Funcionalidades Técnicas
 
