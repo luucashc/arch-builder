@@ -1,2 +1,1 @@
-# Ignora a pasta de decisões de arquitetura
-docs/adr/
+docs/adr/*
